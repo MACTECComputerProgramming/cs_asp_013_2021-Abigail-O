@@ -1,0 +1,5 @@
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\Asp_013-Abigail-O\obj\Debug\Asp_013-Abigail-O.csprojAssemblyReference.cache
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\Asp_013-Abigail-O\obj\Debug\MainWindow.g.cs
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\Asp_013-Abigail-O\obj\Debug\App.g.cs
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\Asp_013-Abigail-O\obj\Debug\Asp_013-Abigail-O_MarkupCompile.cache
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\Asp_013-Abigail-O\obj\Debug\Asp_013-Abigail-O_MarkupCompile.lref
