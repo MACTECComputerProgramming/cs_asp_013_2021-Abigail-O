@@ -1,0 +1,15 @@
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\bin\Debug\CS_ASP_013-Abigail-O.exe.config
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\bin\Debug\CS_ASP_013-Abigail-O.exe
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\bin\Debug\CS_ASP_013-Abigail-O.pdb
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O.csprojAssemblyReference.cache
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\MainWindow.g.cs
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\App.g.cs
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O_MarkupCompile.cache
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O_MarkupCompile.lref
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\MainWindow.baml
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O.g.resources
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013_Abigail_O.Properties.Resources.resources
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O.csproj.GenerateResource.cache
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O.csproj.CoreCompileInputs.cache
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O.exe
+C:\Users\maconrm180\Documents\GitHub\Abi O\Cs_Asp_013\cs_asp_013_2021-Abigail-O\CS_ASP_013-Abigail-O\obj\Debug\CS_ASP_013-Abigail-O.pdb
