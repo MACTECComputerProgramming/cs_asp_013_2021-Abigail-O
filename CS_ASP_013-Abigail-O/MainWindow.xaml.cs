@@ -56,8 +56,21 @@ namespace CS_ASP_013_Abigail_O
                 sandwhichLabel.Content = " Steak, ";
             }
 
+            sandwhichLabel.Content = (americanBox.IsChecked == true) ? "American Cheese" : "";
 
+            sandwhichLabel.Content = (swissBox.IsChecked == true) ? "Swiss Cheese" : "";
 
+            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? "PepperJack Cheese" : "";
+
+            sandwhichLabel.Content = (cucumberBox.IsChecked == true) ? "Cucumbers" : "";
+
+            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? "Green Peppers" : "";
+
+            sandwhichLabel.Content = (lettuceBox.IsChecked == true) ? "Lettuce" : "";
+
+            sandwhichLabel.Content = (onionBox.IsChecked == true) ? "Red Onion" : "";
+
+            sandwhichLabel.Content = (allBox.IsChecked == true) ? "Cucumbers, Green Peppers, Lettuce, Red Onion": "";
 
         }
     }

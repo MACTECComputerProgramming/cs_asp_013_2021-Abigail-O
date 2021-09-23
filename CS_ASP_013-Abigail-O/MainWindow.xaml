@@ -7,12 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Image HorizontalAlignment="Left" Height="4294" Margin="128,-249,0,-3625" VerticalAlignment="Top" Width="540" Source="veggies.jpeg" RenderTransformOrigin="0.5,0.5" Opacity="0.3">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.751"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
         <RadioButton x:Name="italianButton" Content="Italian" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,185,0,0"/>
         <RadioButton x:Name="hamButton" Content="Ham" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,165,0,0" Cursor="No"/>
         <RadioButton x:Name="wheatButton" Content="Wheat" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,162,0,0" Width="88" Height="18"/>
-        <RadioButton x:Name="flatButton" Content="Flat Bread" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,205,0,0"/>
-        <RadioButton x:Name="steakButton" Content="Steak" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,225,0,0" Cursor="No"/>
-        <RadioButton x:Name="meatballButton" Content="MeatBall" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,205,0,0" Cursor="No"/>
+        <RadioButton x:Name="flatButton" Content="Flat Bread (+ $0.50)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,205,0,0"/>
+        <RadioButton x:Name="steakButton" Content="Steak (+ $1.50)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,225,0,0" Cursor="No"/>
+        <RadioButton x:Name="meatballButton" Content="MeatBall (+ $1.00)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,205,0,0" Cursor="No"/>
         <RadioButton x:Name="chickenButton" Content="Roasted Chicken" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,185,0,0" Cursor="No"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="507,292,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Label x:Name="sandwhichLabel" Content="Your sandwhich" HorizontalAlignment="Left" Height="31" Margin="52,293,0,0" VerticalAlignment="Top" Width="98"/>
