@@ -27,6 +27,8 @@ namespace CS_ASP_013_Abigail_O
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            
+            
             if (wheatButton.IsChecked == true)
             {
                 sandwhichLabel.Content = "Wheat,";
@@ -55,6 +57,7 @@ namespace CS_ASP_013_Abigail_O
             {
                 sandwhichLabel.Content = " Steak, ";
             }
+
 
             sandwhichLabel.Content = (americanBox.IsChecked == true) ? "American Cheese" : "";
 
