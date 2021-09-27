@@ -27,53 +27,86 @@ namespace CS_ASP_013_Abigail_O
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-            
+            Double total = 0.0; 
+
+            String length = " ";
+            Double lengthTotal = 0;
+            if (sixSubButton.IsChecked == true)
+            {
+                length = " Six Inch, ";
+                lengthTotal = 3.50;
+            }
+            else if (footLongButton.IsChecked == true)
+            {
+                length = " Foot Long, ";
+                lengthTotal = 5.0;
+            }
+
+            String bread = " ";
+            Double breadTotal = 0;
             if (wheatButton.IsChecked == true)
             {
-                sandwhichLabel.Content = "Wheat,";
+               bread = "Wheat,";
+               breadTotal = 0 ;
             }
             else if (italianButton.IsChecked == true)
             {
-                sandwhichLabel.Content = "Italian,";
+               bread = "Italian,";
+               breadTotal = 0;
             }
             else if (flatButton.IsChecked == true)
             {
-                sandwhichLabel.Content = "Flat Bread,";
+               bread = "Flat Bread,";
+                breadTotal = 0.50;
             }
+
+            String Meat = " ";
+            Double meatTotal
             if (hamButton.IsChecked == true)
             {
-                sandwhichLabel.Content = " Ham, ";
+                Meat = " Ham, ";
+                meatTotal = 0;
             }
             else if (chickenButton.IsChecked == true)
             {
-                sandwhichLabel.Content = " Roasted Chicken, ";
+                Meat = " Roasted Chicken, ";
+                meatTotal = 0;
             }
             else if (meatballButton.IsChecked == true)
             {
-                sandwhichLabel.Content = " Meatballs, ";
+                Meat = " Meatballs, ";
+                meatTotal = 1.00;
             }
             else if (steakButton.IsChecked == true)
             {
-                sandwhichLabel.Content = " Steak, ";
+                 Meat = " Steak, ";
             }
 
+            String cheese = " ";
+            sandwhichLabel.Content = (americanBox.IsChecked == true) ? cheese =  "American Cheese, " : "";
 
-            sandwhichLabel.Content = (americanBox.IsChecked == true) ? "American Cheese" : "";
+            sandwhichLabel.Content = (swissBox.IsChecked == true) ? cheese = "Swiss Cheese, " : "";
 
-            sandwhichLabel.Content = (swissBox.IsChecked == true) ? "Swiss Cheese" : "";
+            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? cheese = "PepperJack Cheese, " : "";
 
-            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? "PepperJack Cheese" : "";
+            String veggies = " ";
+            sandwhichLabel.Content = (cucumberBox.IsChecked == true) ? veggies = "Cucumbers" : "";
 
-            sandwhichLabel.Content = (cucumberBox.IsChecked == true) ? "Cucumbers" : "";
+            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? veggies = "Green Peppers" : "";
 
-            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? "Green Peppers" : "";
+            sandwhichLabel.Content = (lettuceBox.IsChecked == true) ? veggies = "Lettuce" : "";
 
-            sandwhichLabel.Content = (lettuceBox.IsChecked == true) ? "Lettuce" : "";
+            sandwhichLabel.Content = (onionBox.IsChecked == true) ? veggies = "Red Onion" : "";
 
-            sandwhichLabel.Content = (onionBox.IsChecked == true) ? "Red Onion" : "";
+            sandwhichLabel.Content = (allBox.IsChecked == true) ? veggies = "Cucumbers, Green Peppers, Lettuce, Red Onion": "";
 
-            sandwhichLabel.Content = (allBox.IsChecked == true) ? "Cucumbers, Green Peppers, Lettuce, Red Onion": "";
+       
+            sandwhichLabel.Content = length + bread + Meat + cheese + veggies;
+
+            totalLabel.Content = total;
+
+
+
 
         }
     }
