@@ -61,7 +61,7 @@ namespace CS_ASP_013_Abigail_O
             }
 
             String Meat = " ";
-            Double meatTotal
+            Double meatTotal = 0.0;
             if (hamButton.IsChecked == true)
             {
                 Meat = " Ham, ";
@@ -83,31 +83,43 @@ namespace CS_ASP_013_Abigail_O
             }
 
             String cheese = " ";
+            Double cheeseTotal = 0.0;
             sandwhichLabel.Content = (americanBox.IsChecked == true) ? cheese =  "American Cheese, " : "";
+            totalLabel.Content = (americanBox.IsChecked == true) ? cheeseTotal = 0.25 : 0.0;
 
             sandwhichLabel.Content = (swissBox.IsChecked == true) ? cheese = "Swiss Cheese, " : "";
+            totalLabel.Content = (swissBox.IsChecked == true) ? cheeseTotal = 0.30 : 0.0;
 
             sandwhichLabel.Content = (pepperBox.IsChecked == true) ? cheese = "PepperJack Cheese, " : "";
+            totalLabel.Content = (pepperBox.IsChecked == true) ? cheeseTotal = 0.75 : 0.0;
 
             String veggies = " ";
+            Double veggieTotal = 0.0;
             sandwhichLabel.Content = (cucumberBox.IsChecked == true) ? veggies = "Cucumbers" : "";
 
             sandwhichLabel.Content = (pepperBox.IsChecked == true) ? veggies = "Green Peppers" : "";
+            sandwhichLabel.Content = (pepperBox.IsChecked == true) ? veggieTotal = 0.15 : 0.0;
 
             sandwhichLabel.Content = (lettuceBox.IsChecked == true) ? veggies = "Lettuce" : "";
+            sandwhichLabel.Content = (lettuceBox.IsChecked == true) ? veggieTotal = 0.15 : 0.0;
 
             sandwhichLabel.Content = (onionBox.IsChecked == true) ? veggies = "Red Onion" : "";
+            sandwhichLabel.Content = (onionBox.IsChecked == true) ? veggieTotal = 0.10 : 0.0;
 
             sandwhichLabel.Content = (allBox.IsChecked == true) ? veggies = "Cucumbers, Green Peppers, Lettuce, Red Onion": "";
+            sandwhichLabel.Content = (allBox.IsChecked == true) ? veggieTotal = 0.25 : 0.0;
 
-       
-            sandwhichLabel.Content = length + bread + Meat + cheese + veggies;
+            String special = " ";
+            Double specialTotal = 0.0;
+            if ((footLongButton.IsChecked == true) && (wheatButton.IsChecked == true) && (meatballButton.IsChecked == true) && (americanBox.IsChecked == true));
+            {
+                special = "Special ($2.00 off)";
+                specialTotal = -2.00;
+            }
 
-            totalLabel.Content = total;
+            sandwhichLabel.Content = length + bread + Meat + cheese + veggies + special;
 
-
-
-
+            totalLabel.Content = lengthTotal + breadTotal + meatTotal + cheeseTotal + veggieTotal + specialTotal;
         }
     }
 }
